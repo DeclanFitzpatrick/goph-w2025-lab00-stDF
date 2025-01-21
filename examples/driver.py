@@ -17,7 +17,7 @@ def main():
     print(f'B:\n{B}')
     print(f'add(A, B):\n{add(A, B)}')
     print(f'multiply(A, B):\n{multiply(A, B)}')
-    print(f'Subtraction and multiply: {subtract(A, B)}')
+    print(f'Subtraction: {subtract(A, B)}')
 
 
 if __name__ == '__main__':
