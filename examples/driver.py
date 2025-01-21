@@ -2,6 +2,7 @@ import numpy as np
 
 from src.goph420_lab00.operator import add, multiply, subtract
 
+
 def main():
     # test for scalars
     print(f'add(1, 3): {add(1, 3)}')
