@@ -1,9 +1,10 @@
 import numpy as np
-from goph420_lab00.operator import (
-add,
-multiply,
-)
 
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+from src.goph420_lab00.operator import add, multiply, subtract
 
 def main():
     # test for scalars
@@ -16,6 +17,7 @@ def main():
     print(f'B:\n{B}')
     print(f'add(A, B):\n{add(A, B)}')
     print(f'multiply(A, B):\n{multiply(A, B)}')
+    print(f'Subtraction and multiply: {subtract(A, B)}')
 
 
 if __name__ == '__main__':
